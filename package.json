@@ -1,0 +1,33 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "Simple app to organize my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorAlmeidaFonseca/projects.git"
+  },
+  "author": "Victor Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorAlmeidaFonseca/projects/issues"
+  },
+  "homepage": "https://github.com/VictorAlmeidaFonseca/projects#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "jest": "^25.1.0"
+  }
+}
