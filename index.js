@@ -1,5 +1,8 @@
 import http from 'http';
 import config from './src/config';
+import { realConnection } from './src/models/project'
+
+
 
 const server = http.createServer((req, res) => {
   res.end('Hello World! Agora o ambiente de desenvolvimento esta padronozado');
